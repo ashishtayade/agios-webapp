@@ -236,6 +236,11 @@ main > .container {
     display: flex;
 }
 
+a.block {
+    color: #292c2d;
+    text-decoration: none;
+}
+
 
 /* Peak Registry */
 .peak-registry .container {
@@ -243,6 +248,12 @@ main > .container {
     background-position: top right;
     background-repeat: no-repeat;
     background-size: 32% 100%;
+}
+
+.peak-registry .container .row, 
+.peak-registry .container footer {
+    position: relative;
+    z-index: 99;
 }
 
 .purple-text {
@@ -257,4 +268,193 @@ main ul li {
 	font-size: 1.2rem;
     color: #292c2d;
     font-weight: 400;
+}
+
+/* Pipeline css */
+.table {
+    margin-bottom: 30px;
+    background: #fff;
+    border-radius: 15px;
+}
+
+.table .thead-dark th {
+    color: #fff;
+    background-color: #1d2a49;
+    border-color: #1d2a49;
+    font-size: 0.8rem;
+    vertical-align: middle;
+    font-weight: 400;
+    line-height: 1rem;
+    padding: 0.8rem 0.4rem;
+}
+
+.table .thead-dark th:first-child,
+.table tbody:last-child td:first-child {
+    border-radius: 15px 0 0 0;
+}
+
+.table .thead-dark th:last-child,
+.table tbody:last-child td:last-child {
+    border-radius: 0 15px 0 0;
+}
+
+
+.table tbody tr:first-child td {
+    padding-top: 1.4rem;
+}
+
+.table tbody tr:last-child td {
+    padding-bottom: 1.4rem;
+}
+
+.table .thead-dark th:first-child,
+.table tbody tr td:first-child[rowspan="3"],
+.table tbody tr td:first-child[rowspan="2"],
+.table tbody tr td:first-child[rowspan="1"] {
+    padding-left: 1.4rem;
+}
+
+.table .thead-dark th:last-child,
+.table tbody tr td:last-child {
+    padding-right: 1.4rem;
+}
+
+
+.table tbody+tbody {
+    border-top: 0px;
+}
+
+.table td, .table th {
+    padding: .4rem;
+    border-top: 0;
+}
+
+.table td p {
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 1rem;
+    display: inline-flex;
+}
+
+.table-body-green {
+	background: #ebfff0;	
+}
+
+.table-body-blue {
+	background: #e6f3fc;	
+}
+
+.pipeline-block {
+    display: block;
+    height: 40px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 1rem;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.pipeline-block:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.green-light {
+	background: #b8dfcd;
+}
+
+.green-medium {
+	background: #8ccfb0;
+}
+
+.green-dark {
+	background: #52b279;
+}
+
+.blue-light {
+	background: #a8d8ed;
+}
+
+.blue-medium {
+	background: #78bee1;
+}
+
+.blue-dark {
+	background: #45a5d3;
+}
+
+.red-dark {
+    background: #ab1927;
+}
+
+.green-text {
+	color: #00b06d;
+}
+
+.blue-text {
+	color: #126f93;
+}
+
+.red-text {
+    color: #ab1927;
+}
+
+/* pipeline details */
+
+.pipeline-details h1 .activate {
+    height: 24px;
+    vertical-align: top;
+    margin-top: 6px;
+    margin-left: 15px;
+}
+.pl-20 {
+    padding-left: 20px;
+}
+
+.badge {
+    font-size: 0.7rem;
+    font-weight: 500;
+    line-height: 1rem;
+    text-transform: uppercase;
+    padding: 0.3rem 0.8rem;
+    color: #fff;
+}
+
+.pipeline-details .block {
+    border-radius: 15px;
+}
+
+.pipeline-details .block img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.pipeline-details .block p,
+.pipeline-details .block ul li {
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 1.2rem;
+}
+
+.pipeline-details .block p strong {
+    font-weight: 900;
+    font-size: 1rem;
+}
+
+.pipeline-details .side-block-container {
+    padding: 0px;
+}
+
+.pipeline-details .block .side-block {
+    display: block;
+    padding: 30px;
+}
+
+.pipeline-details .block .side-block-gray {
+    background: #f4f4f4;
+}
+
+.pipeline-details .block .side-block:last-child {
+    border-radius: 0px 0px 15px 15px;
 }
