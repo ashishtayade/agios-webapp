@@ -184,8 +184,9 @@ h2 {
     font-weight: 900;
 }
 
-p, ul{
-    display: block;
+p, ul li{
+    display: inherit;
+        background: rgb(255 214 214);
 }
 
 .navbar {
