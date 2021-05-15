@@ -184,11 +184,6 @@ h2 {
     font-weight: 900;
 }
 
-p, ul li{
-    display: inherit;
-        background: rgb(255 214 214);
-}
-
 .navbar {
 	background:	#040b25 !important;
 	padding: .6rem 1rem;
@@ -273,6 +268,7 @@ main ul li {
 	font-size: 1.2rem;
     color: #292c2d;
     font-weight: 400;
+    list-style-type: disc;
 }
 
 /* Pipeline css */
