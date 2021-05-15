@@ -1,4 +1,6 @@
 /* fonts */
+.row:before, .row:after {display: block !important;}
+
 @font-face {
     font-family: 'Gotham';
     src: url('../fonts/Gotham-Bold.woff2') format('woff2'),
@@ -276,11 +278,6 @@ main ul li {
     display: block;
     visibility: visible;
 }
-
-.row::before, 
-.row::after { 
-    display: block; 
-} 
 
 /* Pipeline css */
 .table {
