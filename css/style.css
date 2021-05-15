@@ -266,17 +266,10 @@ a.block {
     color: #0093ce;
 }
 
-main ul {
-    display: block;
-    background-color: red;
-}
-
 main ul li {
 	font-size: 1.2rem;
     color: #292c2d;
     font-weight: 400;
-    display: block;
-    visibility: visible;
 }
 
 /* Pipeline css */
