@@ -277,7 +277,7 @@ main ul li {
     visibility: visible;
 }
 
-.row:before, .row:after{ display: block; } 
+.row:before, .row:after { display: block; } 
 
 /* Pipeline css */
 .table {
