@@ -266,6 +266,11 @@ a.block {
     color: #0093ce;
 }
 
+main {
+        display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+}
 main ul li {
 	font-size: 1.2rem;
     color: #292c2d;
