@@ -269,6 +269,7 @@ main ul li {
     color: #292c2d;
     font-weight: 400;
     list-style-type: disc;
+    display: block;
 }
 
 /* Pipeline css */
