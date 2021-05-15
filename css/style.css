@@ -1,6 +1,4 @@
 /* fonts */
-.row:before, .row:after {display: block !important;}
-
 @font-face {
     font-family: 'Gotham';
     src: url('../fonts/Gotham-Bold.woff2') format('woff2'),
@@ -270,10 +268,6 @@ main ul li {
 	font-size: 1.2rem;
     color: #292c2d;
     font-weight: 400;
-
-    display: -webkit-box !important;
-    display: -ms-flexbox !important;
-    display: flex !important;    
 }
 
 /* Pipeline css */
