@@ -271,10 +271,9 @@ main ul {
 
 main ul li {
 	font-size: 1.2rem;
-    color: rgb(41 44 45);
+    color: #292c2d;
     font-weight: 400;
-    display: list-item;
-    list-style-type: disc;
+    display: block;
 }
 
 /* Pipeline css */
