@@ -184,6 +184,10 @@ h2 {
     font-weight: 900;
 }
 
+p, ul{
+    display: block;
+}
+
 .navbar {
 	background:	#040b25 !important;
 	padding: .6rem 1rem;
