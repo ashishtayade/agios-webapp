@@ -274,6 +274,7 @@ main ul li {
     color: #292c2d;
     font-weight: 400;
     display: block;
+    visibility: visible;
 }
 
 /* Pipeline css */
