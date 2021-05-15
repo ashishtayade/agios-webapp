@@ -271,7 +271,7 @@ main ul {
 
 main ul li {
 	font-size: 1.2rem;
-    color: #292c2d;
+    color: rgb(41 44 45);
     font-weight: 400;
     display: list-item;
     list-style-type: disc;
