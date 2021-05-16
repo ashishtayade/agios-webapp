@@ -539,6 +539,14 @@ body, main ul li {
     display: block;
 }
 
+.big-img {
+    height: 150px;
+}
+
+.small-img {
+    height: 70px;
+}
+
 }
 
 @media (max-width: 767px) {
@@ -571,7 +579,7 @@ footer .text-right {
 .table tbody tr td.blue-text {
     background: #eff3fd;
     border-color: #eff3fd;
-    width: 170px;
+    width: 150px;
     position: sticky;
     left: 0;
     z-index: 2;
@@ -582,12 +590,12 @@ footer .text-right {
 }
 
 .table {
-    width: 900px;
+    width: 750px;
     margin-bottom: 0px;
 }
 
 .ml-200 {
-    margin-left: 170px;
+    margin-left: 150px;
 }
 
 .mobile-table {
