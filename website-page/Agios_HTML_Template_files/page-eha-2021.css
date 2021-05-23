@@ -1,0 +1,131 @@
+/* CSS Document */
+
+.header h2 {
+	text-transform:none;
+	font-weight:100;
+	font-family: "museo-sans", sans-serif;
+	letter-spacing: initial;
+	font-size:55px;
+	margin-top: 0;
+}
+.header h2 strong {
+	text-transform:uppercase;
+	font-weight:900;
+}
+.header h3 {
+	color:#fff;
+	margin-top: 0;
+}
+
+.header h4 {
+	color:#00b2e5;
+	margin-top: 0;
+	font-size:23px;
+	font-weight:400;
+}
+.header hr {
+	border-top:6px solid #ff9e16;
+	width:160px;
+	margin:20px auto;
+}
+.section_1 {
+	background-size: 100% auto;
+	background-position: center 490px;
+	background-repeat: no-repeat;
+}
+
+.flex-row {
+	display:flex;
+}
+.svc_top_author {
+	display:none;
+}
+.vc_social_tm1 .svc-text-wrapper {
+	border-top:none !important;
+}
+.ash-video-modal .modal-dialog {
+	width:100%;
+}
+.video-close {
+	position:absolute;
+	right:15px;
+	top: -35px;
+	color: #fff;
+	text-shadow: none;
+	opacity: .9;
+	font-size: 34px;
+}
+.video-close:hover {
+	color:#fff;
+	opacity:1;
+}
+@media only screen and (min-width : 768px) {
+	
+
+}
+
+#myVideoModal .modal-dialog {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#myVideoModal .modal-body {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	margin-bottom: -10px;
+}
+
+#myVideoModal .modal-content {
+	border: 0;
+	border-radius: 0;
+	background: transparent;
+	box-shadow: none;
+}
+
+#myVideoModal video ,
+#myVideoModal source {
+	padding: 0;
+	margin: 0;
+}
+
+#myVideoModal video {
+	-webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+          box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+}
+#vimeoVideo {
+	width:100%;
+}
+
+@media only screen and (max-width : 1199px) {
+	
+}
+@media only screen and (max-width : 1062px) {
+	.header h2 {
+    	font-size: 46px;
+	}
+	.header h3 {
+		font-size:24px;
+	}
+}
+@media only screen and (max-width : 991px) {
+	.header {
+		padding:30px 0;
+    	height: auto;
+	}
+	.header h2 strong {
+		display: block;
+	}
+}
+@media only screen and (max-width : 767px) {
+	.header h2 {
+		display: block;
+		font-size:40px;
+	}
+	.header h3 {
+		font-size:21px;
+	}
+	.header h4 {
+		font-size:18px;
+	}
+}
