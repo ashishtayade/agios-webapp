@@ -409,7 +409,8 @@ main ul li {
 .pipeline-block {
     display: block;
     height: 40px;
-    font-size: 0.8rem;
+    /*font-size: 0.8rem;*/
+    font-size: 0.76rem;
     font-weight: 600;
     line-height: 1rem;
     color: #fff;
@@ -458,6 +459,10 @@ main ul li {
 	color: #126f93;
 }
 
+.light-blue-text {
+    color: #45a5d3;
+}
+
 .red-text {
     color: #ab1927;
 }
@@ -467,11 +472,27 @@ main ul li {
 .pipeline-details h1 .activate {
     height: 24px;
     vertical-align: top;
-    margin-top: 6px;
-    margin-left: 15px;
+    /*margin-top: 6px;
+    margin-left: 15px;*/
 }
+
+.pipeline-details h1 .energize {
+    height: 24px;
+    vertical-align: top;
+    /*margin-top: 6px;
+    margin-left: 15px;*/
+}
+
 .pl-20 {
     padding-left: 20px;
+}
+
+.p-30 {
+    padding: 30px;
+}
+
+.p-30.side-block-gray {
+    border-radius: 0px 15px 15px 0px;
 }
 
 .badge {
@@ -519,6 +540,10 @@ main ul li {
 
 .pipeline-details .block .side-block:last-child {
     border-radius: 0px 0px 15px 15px;
+}
+
+.w-60 {
+    width: 60%!important;
 }
 
 /* responsive */
